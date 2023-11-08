@@ -1,0 +1,77 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  height: 100vh;
+  background: url("https://i.pinimg.com/564x/e6/9d/50/e69d50a315454e45bfccf73ebf8c6727.jpg") 50% fixed;
+  background-size: cover;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.registration {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  min-height: 100%;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.form {
+  border-radius: 2px 2px 5px 5px;
+  padding: 25px 20px 20px 20px;
+  width: 100%;
+  max-width: 320px;
+  background: #ffffff;
+  position: relative;
+  padding-bottom: 80px;
+  }
+
+  input {
+    display: block;
+    padding: 15px 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 2px;
+    color: #000;
+}
+
+.title {
+  color: #444;
+  font-size: 1.2em;
+  font-weight: bold;
+  }
+
+  button {
+    width: 100%;
+    height: 100%;
+    padding: 10px 10px;
+    display: block;
+    border: none;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    max-height: 60px;
+    border-radius: 0 0 2px 2px;
+    background: rgb(0, 0, 0, .3);
+    }
+.state {
+color: #000;
+}
+
+footer {
+  display: block;
+}
+.blank {
+text-decoration: none;
+  display: block;
+  padding-top: 40px;
+  text-align: center;
+  color: #ddd;
+  font-weight: normal;
+  font-size: 1em;
+}

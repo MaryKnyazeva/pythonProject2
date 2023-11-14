@@ -1,10 +1,10 @@
 const node_for_click = document.getElementById("for_click")
 
 function find_edit(){
-    const surname  = document.getElementsByTagName('div')[4]
-    const name = document.getElementsByTagName('div')[5]
-    const middle_name = document.getElementsByTagName('div')[6]
-    const sex = document.getElementsByTagName('div')[7]
+    const surname  = document.getElementsByTagName('div')[7]
+    const name = document.getElementsByTagName('div')[8]
+    const middle_name = document.getElementsByTagName('div')[9]
+    const sex = document.getElementsByTagName('div')[10]
     console.log(surname.innerText)
     console.log(name.innerText)
     console.log(middle_name.innerText)
